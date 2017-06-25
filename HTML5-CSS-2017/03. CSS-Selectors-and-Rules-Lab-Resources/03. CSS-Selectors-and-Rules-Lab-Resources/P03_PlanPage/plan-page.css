@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url(plan-page.jpg);
+	font-size: 16px;
+	width: 1180px;	
+}
+section {
+	margin: 0 auto;
+	padding-left: 250px;
+}
+article {
+	background-color: #262626;
+	display: inline-block;
+	margin: 80px 20px 0 20px;
+	border: 5px solid #424242;
+	color: #a1a1a1;
+	width: 240px;
+	text-align: center;
+}
+h1 {
+	font-size: 1.5em;
+	color: #FFF;
+	padding-top: 10px;
+}
+h1 + p {
+	padding-top: 15px;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
+p.price {
+	font-size: 3em;
+	font-width: bold;
+	color: #27dcc4;
+}
+ul {
+	padding:0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+button {
+	background-color: #27dcc4;
+	color: #FFF;
+	padding: 15px 30px;
+	margin: 10px 0;
+	font-size: 0.9em;
+	cursor: pointer;
+	border: none;
+}
+button:hover {
+	background-color: #ACACAC;
+}
+ul li {
+	list-style-type: none;
+	padding: 5px 0;
+	font-size:10px;
+}

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+header {
+	background-color:#293F50;/*#84b3ad;*/	
+}
+nav#navbar ul{
+	/*text-align: center;*/
+	list-style-type: none;
+	/*display: inline-block;*/
+	padding: 0px;
+	line-height: 30px;
+	height:40px;
+	margin: 0px;
+	list-style-type: none;
+}
+nav#navbar li{
+	color: #000;
+	text-transform: uppercase;
+	padding: 5px 0px;
+	margin: 0.5px;
+	width:100px;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}
+nav#navbar li:hover{
+	background-color: #135e3e;
+	padding: 5px 0px;
+}
+nav#navbar li a{
+	text-decoration: none;
+	color: #000;
+}
+header h1 {
+	color: #fffff;
+	letter-spacing: 2px;
+}
+header h3 {
+	color: #000;
+}
+header h1, h3, p {
+	text-align: center;
+}
+header h1, p.datetime{
+	text-transform: uppercase;
+	padding: 20px;
+} 
+header > p.datetime{
+	text-align: right;
+}
+button.btn {
+  color: #fff;
+  background: none;
+  border: 5px solid #ffffff;
+  border-radius: 15px;
+  /*margin: 40px 20px 20px 10px;*/
+  margin-left: 450px;
+  margin-top:40px;
+  margin-bottom: 40px; 
+  padding: 15px 45px;
+  font-size: 16px;
+}
+button:hover {
+  background: #000;
+  border-color: #000;
+  cursor: pointer;
+}
+main section {
+	width: 33%;
+	text-align: left;
+	float: left;
+}
+main  section  img {
+	width:70%;
+	padding: 40px;
+	border-radius: 65px;
+}
+main  section  h2 {
+	font-size: 24px;
+	padding: 10px;
+	margin-left: 40px;
+}
+
+main > footer {
+	margin: 10px;
+	background-color: #ccc;
+}
+footer p {
+	text-align: left;
+	padding: 15px;	
+}
+nav#navbar_footer ul{
+	text-align: right;
+	list-style-type: none;
+	/*display: inline-block;*/
+	padding: 0px;
+	line-height: 30px;
+	height: 40px;
+	margin: 0px;
+	list-style-type: none;
+}
+nav#navbar_footer li{
+	color: #fff;
+	font-size: 14px;
+	padding: 2px 0px;
+	margin: 0.5px;
+	width:100px;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}
+nav#navbar_footer li:hover{
+	background-color: #135e3e;
+	padding: 5px 0px;
+}
+nav#navbar_footer li a{
+	text-decoration: none;
+	color: #fff;
+}

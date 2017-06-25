@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Calibri Light';
+    font-style: normal;
+    font-weight: 400;
+    src: local('fonts/calibri.ttf'); 
+}
+@font-face {
+    font-family: 'verdana';
+    font-style: normal;
+    font-weight: 400;
+    src: local('fonts/Verdana.ttf'); 
+}

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background: linear-gradient(to bottom, #567788 0%,#121f25 100%) no-repeat center center;
+/*mine	background: linear-gradient(to bottom #557586 0%,#152328 100%) no-repeat center cente4;*/
+}
+
+header > nav {
+	/*border: 1px solid red;*/
+	margin: 40px;
+	background: #eff4f7;
+	position: relative;
+	height:80px;
+	z-index: 5;	
+}
+
+header > nav > ul {
+	/*border: 1px solid red;*/
+	float: right;
+	padding: 20px 20px 0 20px; /*top,right,bottom,left*/
+}
+header > nav > ul a {
+	color: #a4a8a9;
+	text-decoration: none;
+	padding-bottom: 23px;
+}
+
+header > nav > ul li {
+	/*border: 1px solid red;*/
+	display: inline-block;
+	list-style-type: none;
+	margin-right:20px;
+	padding-bottom: 23px;
+	box-sizing: border-box;
+	border: 2px solid #eff4f7;
+}
+
+
+header > nav ul li:hover {
+	border-bottom-color: 10px solid #70e9ff;
+}
+
+header > nav ul li a:hover {
+	cursor: pointer;
+	color:#333;
+}
+
+nav::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+section.logo {
+	/*border: 1px solid red;*/
+	position: absolute;
+	z-index: 0;
+	left: 50vw; /* visual width 550px;*/
+	top: 20px;
+	height: 140px;
+	width: 120px;
+	background-color: #ea3d51;
+	/*padding:20px;*/
+}
+h1.brand {
+	margin-top: 108px;
+	color:#fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3.4em;
+	font-weight:900;
+	letter-spacing: 10px;
+}
+
+main {
+	background-color: #CBD0D9;
+	width: 80%;
+	margin: 130px auto;
+}
+
+/*main > head70px*/
+h1.book-title {
+	text-transform: uppercase;
+	font-size: 54px;
+	text-align: center;
+	font-weight: 900;
+	position: relative;
+	z-index: 10;
+	color:#121f25;
+	margin:0;
+}
+
+h5.book-genre {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 70px;
+	color:#6dffb8;
+	position: relative;
+	top:-60px;
+	left:450px;
+	margin:0;
+	z-index: 3;
+	letter-spacing: 10px;
+}
+.stars {
+	font-size: 25px;
+	margin: 10px;
+}
+section.review {
+	position: relative;
+	z-index: 8;
+	width: 300px;
+	margin:0 auto;
+	background: linear-gradient(to bottom, #eb3c53 0%, #e6135c 100%) no-repeat center center;
+	color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+section.review > div > img {
+	display: block;
+	border-radius: 50%;
+	width: 100%;
+	max-width: 80px;
+	margin:0px auto;
+}
+
+.review p:last-of-type:before,
+.review p:last-of-type:after {
+	content: ' " ';
+	color: #af213d;
+	font-size: 30px; /*80%;*/
+	font-weight: 800;
+}
+section.review > p {
+	padding: 20px 20px;
+}
+.review  button {
+	background:none;
+	border: 3px solid #70ecff;
+	text-transform: uppercase;;
+	font-size: 12px;
+	color: #fff;
+	padding: 10px 25px;
+}
+
+.review  button:hover {
+	background: #70ecff;
+	border-color: #70ecff;
+	color: #348098;
+	cursor: pointer;
+}
+section.chapterOne {
+	position: relative;
+	z-index: 4;
+	top: -250px;
+	background-color: #fff;
+	margin:50px;
+	padding: 250px 35px 35px 35px;
+}
+
+section.chapterOne > h1 {
+	color: #46ee97;
+	font-size: 42px;
+}
+section.chapterOne > p {
+	width: 70%;
+}
+section.chapterOne > button {
+	background: none;
+	border: 3px solid #628291;
+	text-transform: uppercase;
+	font-size:12px;
+	color: #333;
+	padding: 10px 25px;
+}
+section.chapterOne > button:hover {
+	background:#628291;
+	cursor: pointer;
+	color:#6dffb8;
+}

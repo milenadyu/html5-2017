@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding:0;
+}
+body {
+	font-family: sans-serif;
+	font-size: 14px;
+	background-color: #292929;
+}
+footer {
+	/*background-color: #292929;*/
+	/*border: 1px solid red;*/
+	/*width: 1200px;*/
+	height:150px;
+	margin: 20px auto;
+}
+section {
+	/*border: 1px solid yellow;*/
+	display: inline-block;
+	vertical-align: top;
+	color: #B8BA9B;
+	margin: 0 40px;
+	height:150px;
+
+}
+
+section h2 {
+	color:#fff;
+	padding-left: 50px;
+/*	text-align: center;*/
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+}
+
+ul{
+	list-style-type: none;
+	width: 180px;
+	padding-left: 50px;
+	margin-top: 10px;
+}
+a {
+	text-decoration: none;	
+	text-transform: capitalize;
+	color: rgb(181,180, 152);
+	font-size: 1.2em;
+
+}
+footer > section > div div {
+	display: inline-block;
+	width: 70px;
+	height: 58px;
+	background: url('images/social.jpg');
+}
+.facebook {
+	/*width: 70px;
+	height: 55px;*/
+	/*background: url('images/social.jpg') 0 0;*/
+}
+.linkendin {
+	background-position: 643px 2px;
+/*	width: 70px;
+	height: 55px;
+*/	/*background: url('images/social.jpg') -70 0;*/
+}
+.tube {
+	background-position: 326px 2px;
+}
+.tweeter {
+	background-position: 772px 2px;	
+}
+.facebook, .tweeter, .tube, .linkendin {
+	cursor:pointer;
+}
+.facebook:hover {
+		background-position: 0px 62px;
+}
+.linkendin:hover {
+		background-position: 643px 62px;
+}
+.tube:hover {
+		background-position: 326px 62px;
+}
+.tweeter:hover {
+		background-position: 772px 62px;
+}

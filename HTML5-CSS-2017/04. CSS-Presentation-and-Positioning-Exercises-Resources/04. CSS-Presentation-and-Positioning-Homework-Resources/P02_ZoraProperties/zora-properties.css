@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	/*font-family: 'Comfortaa', sans-serif;*/
+	font-size: 14px;
+	background-color: #f3f5f7;
+	color: #b1bfc6; 
+}
+
+header {
+	font-family: 'Comfortaa', sans-serif;
+	/*border:1px solid black;*/
+	width:23%; /*!!!*/
+	float:left;
+	background-color: #fff;
+	position: absolute;
+	bottom: 0px;
+	top: 0;
+}
+
+header > div {
+	padding: 20px 20px;
+}
+
+header > div > section {
+	text-align: center;
+}
+header > div > section > h1 {
+	color: #333;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+header > div > section > img {
+	border-radius: 50%;
+	max-width: 100px;
+	width: 100%;
+	margin-top: 30px;
+}  
+
+header > div > section > p {
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+header > div > aside ul {
+	margin-top:30px;
+}
+
+header > div > aside ul li {
+	margin-top:30px;
+}
+
+
+header > div > aside ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #b1bfc6;
+	font-size: 0.8em;
+	letter-spacing: 2px;
+
+	/*box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);*/
+}
+
+header > div > aside ul li a i{
+	padding-right: 10px;
+}
+
+header > div > aside ul li a:hover {
+	color: #333;
+	
+}
+
+main {
+/*	border:1px solid red;*/	
+	float: right;
+	width: 75%;
+	display: inline-block;
+	margin-right: 2px;
+	position: relative;
+}
+
+main > header {
+	width: 100%;
+}
+
+main > header > p, 
+main > header > button {
+	font-family:'Open Sans', Arial, sans-serif;
+	/*border: 1px solid purple;*/
+	margin-top: 20px;
+	color:#91a5af;	
+}
+
+main > header > p {
+	/*border: 2px solid black;*/
+	display: inline-block;
+	padding: 8px 0px;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+main > header > p > span {
+	color:#333;	
+}
+main > header > button {
+	display: flex;
+	float:right;
+	padding: 5px 10px;
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	color: #ff7739; 
+	border: 2px solid #ff7739;	
+	margin-right: 20px;
+}
+
+main > header > button:hover {
+	background-color: #ff7739; 
+	color:#fff;
+	cursor: pointer;
+}
+
+main > section {
+	/*border: 3px solid yellow;*/
+	margin-top: 80px;
+	position: absolute;
+	z-index: 10;
+}
+main > section > h5 {
+	/*padding-top: 30px;*/
+	text-transform: capitalize;
+	font-weight: bolder;
+	color: #384850;
+	padding-top: 20px;
+}
+
+main > section > h6 {
+	/*margin-top: 20px;*/
+	font-size: 0.7em;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #384850; 
+	padding-top: 15px;
+}
+
+main > section div {
+	/*border:1px solid black;*/
+	display:inline-block;
+	width: 30%;
+	margin-right: 2.6%;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+	z-index: 10;
+}
+main > section div img {
+	width: 100%;
+}
+main > section div p {
+	text-transform: capitalize;
+	margin: 10px 5px 0px 0px;
+	font-size: 0.7em;
+	padding-left: 10px;
+	padding-bottom: 0px; 
+}
+main > section div button {
+	text-transform: uppercase;
+	padding: 5px 10px;
+	background-color:  #91a5af; 
+	color: #fff;
+	border-radius: 15px;
+	border: 1px solid #91a5af;
+	position: relative;
+	z-index: 20;
+	top: 40px;
+	left:-15px;
+	font-size: 0.9em;
+}
+.listed {
+	background-color: #68bc69;
+	border-color: #68bc69;
+}
+.rented {
+	background-color: #91a5af;
+	border-color: #91a5af;
+}
+

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+nav, header, footer {	
+	background-color: rgb(134, 114, 96); /*192,169,145);*/
+	color:#fff;	
+}
+
+nav p.brand{
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-left: 20px;
+	padding-top: 18px;
+	/*border: 1px solid black;*/
+}
+nav p.brand, nav ul.nav-primary {
+	display: inline-block;
+}	
+
+nav ul.nav-primary {
+/*	border: 1px solid black;*/
+	float: right;
+	padding-top: 20px;
+}
+
+nav ul.nav-primary li.nav-item {
+	display: inline-block;
+	margin-right: 40px;
+	padding: 6px 10px 6px 10px;
+}
+
+nav ul.nav-primary li.nav-item a{
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.8em;
+
+}
+
+nav ul.nav-primary li.nav-item:hover{
+	color:#fff;
+	border: 2px solid #fff;
+	background-color: rgb(192,169,145);
+	border-radius: 15px;
+	padding: 4px 8px 6px 8px;
+	
+}
+
+header h1.header-title, 
+header h3.header-subtitle {
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+header h1.header-title {
+	text-transform: capitalize;
+	font-weight:normal;
+	margin:0 auto;
+	padding-top:100px;	
+}
+header h3.header-subtitle {
+	font-weight:normal;
+	margin:0 auto;
+	padding-top: 20px;	
+}
+header > img {
+/*	border: 1px solid black;*/
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width:20%;
+	height: auto;
+}
+.features {
+	border: 1px solid #fff; 	
+	background: url(images/potato-background.png) no-repeat center;
+	background-size:cover;
+}
+.features-title,
+.features-subtitle {
+	margin: 0 auto;
+	text-align: center;
+	/*width: 550px;*/
+}
+.features-title{
+	margin-top: 200px;
+	color:grey;
+	font-weight: normal;
+	width: 550px;
+}
+.features-subtitle {
+	margin-top: 10px;
+	font-size: 1.0em;
+	width: 460px;
+	color:grey;
+	font-weight: normal;
+}
+.feature-potatoes {
+/*	border: 1px solid black;*/
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 130px;
+	width:20%;
+	height: auto;
+}
+.buy-now {
+	/*border: 1px solid black;*/
+	display: block; 	
+	margin:0 auto;
+	text-align:center;
+}
+.order-title{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+	color:grey;
+	font-weight: normal;
+	width: 550px;
+	text-transform: capitalize;
+}
+
+/* ul */
+.potato-types {
+	/*border:1px solid red;*/
+	display:flex;	
+	width: : auto;
+	justify-content: center;
+        list-style-type:none;
+	margin-top: 100px;
+}
+/* li */
+.potato {
+	/*border:1px solid black;*/
+    border-right: 2px solid grey;
+	width: 300px;
+	padding-right: 30px;
+}
+.potato-title {
+ 	text-align: center;
+	color:grey;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.btn-order {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 4px 8px;
+    border: 2px solid green;
+    background-color: #fff;
+    text-transform:uppercase;
+}
+.btn-order:hover{
+    background:green;
+}
+
+.potato-price {
+    color:grey;
+    font-size:0.9em;
+}
+
+footer {
+
+}
+
+.potato-img {
+	width: 150px;
+	margin-top: 40px;
+}
+.potato-description {
+    margin-top: 20px;
+    list-style-type:none;
+    color:grey;
+
+}
+
+footer {
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight:bold;
+}

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Lemon-Regular;
+    src: url(fonts/Lemon-Regular.ttf);
+}
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	background: #602d75;
+	font-family: 'Lemon-Regular', Arial;
+	/*font-size: 15px;*/
+}
+
+body > div {
+	border: 1px solid black;
+	width: 900px;
+	margin:50px auto;
+	border-radius: 10px;
+	background: #ffae32;
+}
+h1 {
+	text-align: center;
+	font-size: 24px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	margin-top:10px;
+}
+article {
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px; 
+	/*border: 1px solid black;*/
+	width:220px;
+	display: inline-block;
+	position: relative;
+	margin: 10px 30px;
+	background: #602d75;
+}
+article h4 {
+	text-align: center;
+	font-size:22px; 
+	color:#fff;
+	margin: 10px 0;
+}
+article h5 {
+	text-align: center;
+	font-size:15px;
+	margin: 10px 0; 
+	color: #ffae32;	
+}
+article p {
+	color:#fff;
+	font-size: 15px;
+	padding-left: 20px;
+}
+article button {
+	margin: 20px 10px;
+	background: #fff;
+	color:#9246ff;
+	padding: 5px 55px;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	border-radius: 15px;
+	border: 1px solid #fff;
+}
+article button:hover{
+	color:#000;
+}
+
+img {
+	margin: 10px 30px;
+	width: 70%;
+	border-radius: 50%;
+	border:3px solid #806671;
+}
+img:hover {
+	border:3px solid #fa4f00;	
+}

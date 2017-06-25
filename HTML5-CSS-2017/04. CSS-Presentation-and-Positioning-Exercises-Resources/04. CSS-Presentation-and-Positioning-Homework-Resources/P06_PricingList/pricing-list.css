@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@font-face {
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Tahoma');
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+		font-family: 'Tahoma', sans-serif;
+		font-size: 16px;
+		color:#748192;
+}
+body h1, h4, p{
+	font-family:'Vollkorn', serif;
+	/*color: grey;*/		
+}
+body h1 {
+	font-size: 40px;
+	font-family: 'Vollkron', serif;
+	text-align: center;
+	font-weight: normal;
+	margin: 40px 0 20px 0;
+	text-transform: uppercase;
+}
+body h4 {
+	font-size: 30px;
+	background: #ebeff2;
+	text-transform: capitalize;
+	/*background-color: #ccc;*/
+	text-align: center;
+	font-weight: normal;
+	padding: 10px 5px;
+	font-family: 'Vollkron', serif;
+}
+article p {
+	font-size: 60px;
+	font-family: 'Vollkron', serif;
+	text-align: center;
+	padding: 25px 0;
+}
+body div {
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	width:1000px;
+	position: relative;
+}
+
+
+article {
+	/*border: 1px solid red;*/
+	display: inline-block;
+	width:30%;
+	vertical-align: top;
+	height: 450px;
+	padding-left: 20px;
+}
+
+article table{
+	padding-left: 20px;
+	font-size: 0.8em;
+}
+table tr td{
+	padding: 6px 0;
+	border-bottom: 1px solid #ccc;
+}	
+
+article button {
+	/*border:1px solid black;*/
+	position: absolute;
+	bottom:15px;
+	display: block;
+	margin-left: 20px;
+	padding: 6px 60px;
+	border-radius: 5px;
+	border-color: 2px solid #ddd;
+	color:#fff;
+	background-color: #ddd;
+	text-transform: capitalize;
+
+}
+
+article button:hover, 
+article h4:hover{ 
+	background-color: #65d3e2;
+	cursor: pointer;
+} 
+
+article p:hover {
+	color:#65d3e2;
+	cursor: pointer;
+}	

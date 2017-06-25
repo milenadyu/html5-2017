@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background: url(images/dark-wood.jpg);
+	font-size: 14px;	
+}
+header {
+	/*border: 1px solid yellow;*/
+	background: url(images/header-page.jpg) no-repeat;
+	width: 800px;
+	height: 135px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header h1 {
+	float:right;
+	margin-right: 20px;
+	margin-top: 50px;
+	font-size: 2.5em;
+}
+nav {
+	/*border: 1px solid white;*/
+	background: url(images/header-page.jpg);/*red;*/
+	width: 800px;
+	height: 30px;
+	margin-top: auto; 
+	margin-left: auto;
+	margin-right: auto;	
+}
+nav ul {	
+	margin-left: 30px;/*340px;*/
+	padding-top: 0px;
+	height: 20px;
+	line-height: 20px;
+}
+nav ul li {
+	padding-top: 5px;
+	display: inline-block;
+}
+nav li a {
+	font-size: 1.2em;
+	color: #fff;
+	padding-right: 20px;
+	text-decoration: none;
+}
+/*
+nav li a:link, active, visited{
+	color:#000;
+	padding: 5px 7px 10px 7px;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}*/
+nav li a:hover {
+	color:#000;
+}
+main {
+	background-color: #fff;
+	/*border: 1px solid red;*/
+	width: 800px;
+	height: auto;
+	margin-top: 5px; 
+	margin-left: auto;
+	margin-right: auto;	
+}
+.courses {
+	border-right: 1px solid #ccc;		
+	display: inline-block;
+	float left;
+	width: 70%;
+	/*position: absolute;
+	left:auto;
+	right: auto;*/
+}
+article {
+	/*border: 1px solid black;*/
+	margin-top:10px; 
+	padding-left: 10px;
+	height: 240px;
+}
+article figure {
+	border: 1px solid red;
+	display: inline-block;
+	float: left;
+	border: 1px solid #ccc;
+	color: grey;
+	padding: 2px 2px 2px 2px;
+	/*position: relative;
+	left: 0;
+	top: 0px;
+	float:left;*/
+}
+article div,  article p {
+	/*border: 1px solid black;*/
+	display: inline-block;
+	float: right;
+	width: 42%;
+	margin-top: 10px;
+	margin-right:0;
+	margin-left:2px;
+/*	position: relative;
+	left: 300px;
+	top: 0px;*/
+}
+article p {
+	color:grey;
+	font-size: 0.9em;
+}
+article h2 { 
+	color: grey;
+	letter-spacing: 0.5px;
+}
+article h3 {
+	color: yellow;
+	font-size: 1.1em;
+	text-align: left;
+}
+
+aside {
+	/*border: 1px solid orange;*/
+	display: inline-block;
+	float: right;
+	margin-right: 45px;
+	width: 18%;
+	/*position: relative;
+	float:right;*/
+}
+
+.popular-recipes h2 {
+	color:pink;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.popular-recipes ul li {
+	list-style-type: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid pink;
+}
+.popular-recipes ul li a {
+	text-decoration: none;
+	color: pink;
+	font-weight: bold;
+}
